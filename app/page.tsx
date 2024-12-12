@@ -1,6 +1,6 @@
 // app/page.tsx
 import SearchForm from '@/components/SearchForm'
-import ChatbotButton from '@/components/ChatbotButton'
+
 import Navbar from '@/components/Navbar'
 
 export default function Home() {
