@@ -4,7 +4,7 @@ import { University } from '@/app/types'
 import { UniversityCard } from '@/components/UniversityCard'
 import Loading from './loading'
 
-async function getUniversities(query: string): Promise<University[]> {
+async function getUniversities(): Promise<University[]> {
   await new Promise((resolve) => setTimeout(resolve, 1000))
   return [
     {
